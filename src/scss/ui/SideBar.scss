@@ -1,0 +1,18 @@
+@import '../utill';
+
+.containor1 {
+    background-color: #efebe0;
+    width: 180px;
+    height: 600px;
+
+    .box1 {
+        width: 100%;
+        height: 40px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+        display: flex;
+        align-items: center; /* 수직 중앙 정렬 */
+        justify-content: center; /* 수평 중앙 정렬 */
+    }
+}

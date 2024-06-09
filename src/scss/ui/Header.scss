@@ -1,0 +1,40 @@
+@import '../utill';
+
+.containor {
+    height: 100px;
+    background-color: #efebe0;
+    position: relative;
+    display: flex;
+
+    .logoBox {
+        text-align: center;
+        font-size: 50px;
+        color: rgba(95, 49, 3, 0.6);
+        font-weight: bolder;
+        margin-bottom: 3.125rem;
+        margin-top: 1%;
+        margin-left: 2%;
+        cursor: pointer;
+    }
+
+    .logout {
+        position: absolute;
+        right: 0;
+        margin-right: 3%;
+        margin-top: 1%;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    .signUp {
+        position: absolute;
+        right: 0;
+        margin-right: 8%;
+        margin-top: 1%;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    
+
+}
+
